@@ -15,7 +15,7 @@ router.post('/', async (req, res) => {
       return res.status(400).json({ error: 'Location is required' });
     }
   
-    // alidate date range
+    // Validate date range
     if (
       !dateRange ||
       !dateRange.start ||

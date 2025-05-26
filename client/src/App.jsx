@@ -53,8 +53,8 @@ function App() {
           end: form.end
         },
         data: {
-          main: { temp: parseFloat(form.temp) },
-          weather: [{ description: form.description }]
+          temp: parseFloat(form.temp),
+          description: form.description
         }
       };
   

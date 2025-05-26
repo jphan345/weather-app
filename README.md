@@ -77,9 +77,11 @@ npm run dev
 
 # 🔐 Environment Variables Summary
 
+WEATHER_API_KEY=699f983abbc4e8023cca963b752f44c1
 | File          | Variable                    | Description                          |
 |---------------|-----------------------------|--------------------------------------|
 | `server/.env` | `MONGO_URI`                 | MongoDB connection string            |
 |               | `PORT`                      | Port number                          |
-| `client/.env` | `VITE_WEATHER_API_KEY`      | Frontend OpenWeather API key         |
+|               | `WEATHER_API_KEY`           | OpenWeather API key                  |
+| `client/.env` | `VITE_WEATHER_API_KEY`      | OpenWeather API key                  |
 |               | `VITE_BACKEND_URL`          | Backend API URL                      |
