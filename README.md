@@ -80,8 +80,5 @@ npm run dev
 | File          | Variable                    | Description                          |
 |---------------|-----------------------------|--------------------------------------|
 | `server/.env` | `MONGO_URI`                 | MongoDB connection string            |
-|               | `WEATHER_API_KEY`           | OpenWeather API key                  |
-|               | `YOUTUBE_API_KEY`           | YouTube Data API key (optional)      |
+|               | `PORT`                      | Port number                          |
 | `client/.env` | `VITE_WEATHER_API_KEY`      | Frontend OpenWeather API key         |
-|               | `VITE_YOUTUBE_API_KEY`      | Frontend YouTube key (optional)      |
-|               | `VITE_GOOGLE_MAPS_API_KEY`  | Maps Embed key (optional)            |
