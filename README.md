@@ -82,3 +82,4 @@ npm run dev
 | `server/.env` | `MONGO_URI`                 | MongoDB connection string            |
 |               | `PORT`                      | Port number                          |
 | `client/.env` | `VITE_WEATHER_API_KEY`      | Frontend OpenWeather API key         |
+|               | `VITE_BACKEND_URL`          | Backend API URL                      |
