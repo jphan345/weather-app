@@ -3,7 +3,6 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
-console.log('API KEY:', import.meta.env.VITE_WEATHER_API_KEY);
 
 export default function WeatherLive() {
   const [location, setLocation] = useState('');
