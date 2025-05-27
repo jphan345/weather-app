@@ -21,7 +21,7 @@ function App() {
 
   // Load all records
   const fetchRecords = async () => {
-    const res = await axios.get(`${API_BASE}/weather`);
+    const res = await axios.get(`${API_BASE}/api/weather`);
     setRecords(res.data);
   };
 
@@ -59,9 +59,9 @@ function App() {
       };
   
       if (editId) {
-        await axios.put(`${API_BASE}/weather/${editId}`, data);
+        await axios.put(`${API_BASE}/api/weather/${editId}`, data);
       } else {
-        await axios.post(`${API_BASE}/weather`, data);
+        await axios.post(`${API_BASE}/api/weather`, data);
       }
   
       setForm({ location: '', start: '', end: '', temp: '', description: '' });
@@ -86,12 +86,12 @@ function App() {
   };
 
   const handleDelete = async (id) => {
-    await axios.delete(`${API_BASE}/weather/${id}`);
+    await axios.delete(`${API_BASE}/api/weather/${id}`);
     fetchRecords();
   };
 
   const handleExport = (format) => {
-    window.open(`${API_BASE}/export?format=${format}`, '_blank');
+    window.open(`${API_BASE}/api/export?format=${format}`, '_blank');
   };
 
   return (
@@ -137,7 +137,7 @@ function App() {
             onSubmit={async (e) => {
               e.preventDefault();
               try {
-                const res = await axios.get(`${API_BASE}/weather/lookup`, {
+                const res = await axios.get(`${API_BASE}/api/weather/lookup`, {
                   params: {
                     location: lookup.location,
                     date: lookup.date
