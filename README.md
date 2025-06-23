@@ -1,3 +1,6 @@
+# Deployed At
+https://weather-app-xi-six-29.vercel.app/
+
 # Features
 - Frontend: User input, shows weather, geolocation, five-day forecasting, error handling
 - Backend: CRUD, data export (JSON and CSV), error handling (fuzzy matching for locations)
