@@ -77,7 +77,6 @@ npm run dev
 
 # 🔐 Environment Variables Summary
 
-WEATHER_API_KEY=699f983abbc4e8023cca963b752f44c1
 | File          | Variable                    | Description                          |
 |---------------|-----------------------------|--------------------------------------|
 | `server/.env` | `MONGO_URI`                 | MongoDB connection string            |
