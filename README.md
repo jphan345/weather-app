@@ -6,7 +6,7 @@
 
 - **Frontend**: React (Vite), Tailwind CSS
 - **Backend**: Node.js, Express, Mongoose
-- **Database**: MongoDB (Atlas or Local)
+- **Database**: MongoDB
 - **APIs**: OpenWeather
 
 # Installation
